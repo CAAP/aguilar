@@ -1,9 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
-  <head>
-    <title>Aguilar</title>
-  </head>
-  <body>
-    <h1>Ferreteria Aguilar</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TICPIC </title>
+    <link rel="stylesheet" href="app.css">
+    <script type="text/javascript" src="pictic.js"></script>
+</head>
+
+<body lang="es-MX">
+
+    <header> </header>
+
+    <table>
+	<tbody id="pic-body"></tbody>
+	<tfoot><tr><td colspan="2"><button name="guardar" onclick="pictic.start()">ON</button><button name="cerrar" onclick="pictic.stop()">OFF</button><img height="20px" align="right" onclick="pictic.flip()" src="flip-cam.png"></td></tr></tfoot></table>
+
+    
+
+    <footer> <label id="copyright"></label> <label id="db-vers"></label> </footer>
+
+</body>
 </html>
